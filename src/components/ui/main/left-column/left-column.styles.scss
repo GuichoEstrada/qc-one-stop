@@ -1,0 +1,43 @@
+fieldset {
+
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .left-options > li {
+        list-style: none;
+        line-height: 2em;
+        cursor: pointer;
+        color: #26516F;
+
+        &:hover {
+            text-decoration: underline;
+            transition: transform .3s;
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+.application-title {
+    color: #000;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+input {
+    height: 22px;
+}
+
+button {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 1em;
+    background-color: #53A451;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

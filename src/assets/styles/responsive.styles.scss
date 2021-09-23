@@ -1,0 +1,74 @@
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    #header-container {
+        width: 100%;
+    }
+
+    #left-fieldset {
+        border: 0;
+        margin: 0 20px;
+        padding: 0;
+        margin: 0;
+
+        ul {
+            width: 90%;
+            margin: 20px auto;
+        }
+    }
+
+    #left-options-container {
+        width: 60%;
+    }
+
+    #right-fieldset {
+        border: 0;
+        margin: 0 20px;
+        padding: 0;
+        margin: 0;
+
+        ul {
+            width: 100%;
+        }
+
+        #right-legend {
+            display: none;
+        }
+
+        #right-nav {
+            display: block;
+
+            h2 {
+                font-size: 0.8em;
+                width: 95%;
+            }
+
+            h5 {
+                width: 95%;
+                margin-bottom: 0;
+            }
+
+            #dbo-logo {
+                width: 100px;
+                height: 100px;
+                margin: 0 70px;
+                display: block;
+            }
+
+            #options-container {
+                margin-left: 0;
+            }
+        }
+
+    #right-content {
+        display: none;
+    }
+
+
+    }
+    
+    #footer-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,54 @@
+.custom-button {
+    max-width: 500px;
+    width: 320PX;
+    height: 35px;
+    /* letter-spacing: 0.5px; */
+    line-height: 35px;
+    padding: 0px 10px;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #1339A2;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  
+    &:hover {
+      background-color: #fff;
+      color: #1339A2;
+      border: 1px solid #1339A2;
+    }
+
+    &.inverted {
+      background-color: #1339A2;
+      color: #fff;
+      border: none;
+
+      &:hover {
+        background-color: #fff;
+        color: #1339A2;
+        border: 1px solid #1339A2;
+      }
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .custom-button {
+      max-width: 300px;
+      width: 200PX;
+      height: 25px;
+      line-height: 25px;
+      font-size: 9px;
+      margin: 20px;
+    }
+}
